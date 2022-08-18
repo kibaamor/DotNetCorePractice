@@ -16,6 +16,8 @@
 8. [文件配置提供程序：自由选择配置的格式](./ConfigurationFileDemo/README.md)
 9. [自定义配置数据源：低成本实现定制化配置方案](./ConfigurationCustomDemo/README.md)
 10. [选项框架：服务组件集成配置的最佳实践](./OptionsDemo/README.md)
+11. [日志框架：聊聊记日志的最佳姿势](./LoggingSimpleDemo/README.md)
+12. [结构化日志组件Serilog：记录对查询分析友好的日志](./LoggingSerilogDemo/README.md)
 
 ## 微服务实战篇
 
