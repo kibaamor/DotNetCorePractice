@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Intro", "0.Intro", "{DCD9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Kubernetes", "3.Kubernetes", "{FCB44C24-8D84-4B4F-BCB7-21EA886483E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionAutofacDemo", "DependencyInjectionAutofacDemo\DependencyInjectionAutofacDemo.csproj", "{C30DE484-F563-46CE-8453-AA9403772797}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{68A6400B-A34D-4695-A2A1-FB29DC746C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A6400B-A34D-4695-A2A1-FB29DC746C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A6400B-A34D-4695-A2A1-FB29DC746C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30DE484-F563-46CE-8453-AA9403772797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30DE484-F563-46CE-8453-AA9403772797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30DE484-F563-46CE-8453-AA9403772797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30DE484-F563-46CE-8453-AA9403772797}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{73468A5C-6E89-4F2F-95C6-8A9B8B690927} = {A05FB7F1-F693-4F57-A8F4-324B48D31DB3}
 		{76968AAD-2011-4EC5-BFE5-ACF7AA538534} = {A05FB7F1-F693-4F57-A8F4-324B48D31DB3}
 		{68A6400B-A34D-4695-A2A1-FB29DC746C28} = {A05FB7F1-F693-4F57-A8F4-324B48D31DB3}
+		{C30DE484-F563-46CE-8453-AA9403772797} = {A05FB7F1-F693-4F57-A8F4-324B48D31DB3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {782A5007-7C00-4A7C-800E-3E0430908147}
