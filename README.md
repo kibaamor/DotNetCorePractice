@@ -20,6 +20,8 @@
 12. [结构化日志组件Serilog：记录对查询分析友好的日志](./LoggingSerilogDemo/README.md)
 13. [中间件：掌控请求处理过程的关键](./MiddlewareDemo/README.md)
 14. [异常处理中间件：区分真异常与逻辑异常](./ExceptionDemo/README.md)
+15. [静态文件中间件：前后端分离开发合并部署骚操作](./StaticFilesDemo/README.md)
+16. [文件提供程序：让你可以将文件放在任何地方](./FileProviderDemo/README.md)
 
 ## 微服务实战篇
 
