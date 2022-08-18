@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "ConfigurationEnvironmentVariablesDemo": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "K_section1__key2": "K_section1__value2",
+        "K_section1__section2__key3": "K_section1__section2__value3",
+        "key1": "value1",
+        "K_key1": "K_value1"
+      }
+    }
+  }
+}
