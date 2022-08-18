@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RoutingDemo</name>
+    </assembly>
+    <members>
+        <member name="M:RoutingDemo.Controllers.OrderController.OrderExist(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id">必须可以转为long</param>
+            <returns></returns>
+        </member>
+        <member name="M:RoutingDemo.Controllers.OrderController.Max(System.Int64,Microsoft.AspNetCore.Routing.LinkGenerator)">
+            <summary>
+            
+            </summary>
+            <param name="id">最大20</param>
+            <param name="linkGenerator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RoutingDemo.Controllers.OrderController.Reque(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="ss">必填</param>
+            <returns></returns>
+        </member>
+        <member name="M:RoutingDemo.Controllers.OrderController.Number(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="number">以三个数字开始</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -22,6 +22,7 @@
 14. [异常处理中间件：区分真异常与逻辑异常](./ExceptionDemo/README.md)
 15. [静态文件中间件：前后端分离开发合并部署骚操作](./StaticFilesDemo/README.md)
 16. [文件提供程序：让你可以将文件放在任何地方](./FileProviderDemo/README.md)
+17. [路由与终结点：如何规划好你的Web API](./RoutingDemo/README.md)
 
 ## 微服务实战篇
 
