@@ -15,6 +15,7 @@
 7. [环境变量配置提供程序：容器环境下配置注入的最佳途径](./ConfigurationEnvironmentVariablesDemo/README.md)
 8. [文件配置提供程序：自由选择配置的格式](./ConfigurationFileDemo/README.md)
 9. [自定义配置数据源：低成本实现定制化配置方案](./ConfigurationCustomDemo/README.md)
+10. [选项框架：服务组件集成配置的最佳实践](./OptionsDemo/README.md)
 
 ## 微服务实战篇
 
