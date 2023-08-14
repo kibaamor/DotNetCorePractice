@@ -36,17 +36,17 @@ namespace DependencyInjectionAutofacDemo
         {
             builder.RegisterType<MyService>().As<IMyService>();
 
-            //builder.RegisterType<MyServiceV2>().Named<IMyService>("service2");// ÃüÃû×¢²á
+            //builder.RegisterType<MyServiceV2>().Named<IMyService>("service2");// å‘½åæ³¨å†Œ
 
             //builder.RegisterType<MyNameService>();
-            //builder.RegisterType<MyServiceV2>().As<IMyService>().PropertiesAutowired(); // ÊôĞÔ×¢Èë
+            //builder.RegisterType<MyServiceV2>().As<IMyService>().PropertiesAutowired(); // å±æ€§æ³¨å…¥
 
             // AOP
             //builder.RegisterType<MyInterceptor>();
             //builder.RegisterType<MyNameService>();
             //builder.RegisterType<MyServiceV2>().As<IMyService>().PropertiesAutowired().InterceptedBy(typeof(MyInterceptor)).EnableInterfaceInterceptors();
 
-            // ×ÓÈİÆ÷
+            // å­å®¹å™¨
             builder.RegisterType<MyNameService>().InstancePerMatchingLifetimeScope("myscope");
         }
 
@@ -60,7 +60,7 @@ namespace DependencyInjectionAutofacDemo
             //var service = this.AutofacContainer.Resolve<IMyService>();
             //service.ShowCode();
 
-            // Ê¹ÓÃÃüÃû×¢²á
+            // ä½¿ç”¨å‘½åæ³¨å†Œ
             //var service2 = this.AutofacContainer.ResolveNamed<IMyService>("service2");
             //service2.ShowCode();
 

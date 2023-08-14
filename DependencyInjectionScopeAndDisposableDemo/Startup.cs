@@ -38,7 +38,7 @@ namespace DependencyInjectionScopeAndDisposableDemo
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            // ´Ó¸ùÈİÆ÷ÖĞ»ñÈ¡·şÎñ£¬½«µ¼ÖÂ±»»ñÈ¡µÄ·şÎñÊµÀıÖ±µ½³ÌĞòÍË³öÊ±²ÅÄÜ±»ÊÍ·Å
+            // ä»æ ¹å®¹å™¨ä¸­è·å–æœåŠ¡ï¼Œå°†å¯¼è‡´è¢«è·å–çš„æœåŠ¡å®ä¾‹ç›´åˆ°ç¨‹åºé€€å‡ºæ—¶æ‰èƒ½è¢«é‡Šæ”¾
             var orderService = app.ApplicationServices.GetService<IOrderService>();
             Console.WriteLine($"Configure => {nameof(orderService)}: {orderService.GetHashCode()}");
 

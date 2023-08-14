@@ -13,7 +13,7 @@ namespace ExceptionDemo.Exceptions
 
         public object[] ErrorData { get; private set; }
 
-        public readonly static IKnownException Unknown = new KnownException { Message = "Unknown Error", ErrorCode = 9999 };
+        public static readonly IKnownException Unknown = new KnownException { Message = "Unknown Error", ErrorCode = 9999 };
 
         public static IKnownException FromKnownException(IKnownException exception)
         {

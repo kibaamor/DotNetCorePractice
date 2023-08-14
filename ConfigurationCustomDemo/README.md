@@ -2,6 +2,6 @@
 
 ## 扩展步骤
 
-- 实现IconfigurationSource
-- 实现IconfigurationProvider
+- 实现IConfigurationSource
+- 实现IConfigurationProvider
 - 实现AddXXX扩展方法

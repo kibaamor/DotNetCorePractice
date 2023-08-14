@@ -53,7 +53,7 @@ namespace StaticFilesDemo
                 FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "file"))
             });
 
-            // ²»ÊÇÒÔ/apiÇëÇó¿ªÍ·µÄÂ·¾¶È«²¿ÖØ¶¨Ïòµ½Ä¬ÈÏÊ×Ò³
+            // ä¸æ˜¯ä»¥/apiè¯·æ±‚å¼€å¤´çš„è·¯å¾„å…¨éƒ¨é‡å®šå‘åˆ°é»˜è®¤é¦–é¡µ
             app.MapWhen(context => !context.Request.Path.Value.StartsWith("/api"), builder =>
             {
                 //var option = new RewriteOptions();

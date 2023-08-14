@@ -1,7 +1,6 @@
 # MiddlewareDemo
 
-## ºËÐÄ¶ÔÏó
+## æ ¸å¿ƒå¯¹è±¡
 
 - IApplicationBuilder
 - RequestDelegate
-

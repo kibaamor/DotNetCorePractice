@@ -30,19 +30,19 @@ namespace OptionsDemo
         {
             //services.AddSingleton<OrderServiceOptions>();
             //services.Configure<OrderServiceOptions>(Configuration.GetSection("OrderService"));
-            // 直接注册验证函数
+            // 鐩存帴娉ㄥ唽楠岃瘉鍑芥暟
             //services.AddOptions<OrderServiceOptions>().Configure(options =>
             //{
             //    Configuration.GetSection("OrderService").Bind(options);
             //}).Validate(options => options.MaxOrderCount < 10000, "MaxOrderCount cannot greater than 10000");
 
-            // 使用Microsoft.Extensions.Options.DataAnnotations
+            // 浣跨敤Microsoft.Extensions.Options.DataAnnotations
             //services.AddOptions<OrderServiceOptions>().Configure(options =>
             //{
             //    Configuration.GetSection("OrderService").Bind(options);
             //}).ValidateDataAnnotations();
 
-            // 实现 `IValidateOptions<TOptions>`
+            // 瀹炵幇 `IValidateOptions<TOptions>`
             services.AddOptions<OrderServiceOptions>().Configure(options =>
             {
                 Configuration.GetSection("OrderService").Bind(options);

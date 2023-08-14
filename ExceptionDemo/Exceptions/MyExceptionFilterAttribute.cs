@@ -17,7 +17,7 @@ namespace ExceptionDemo.Exceptions
             var knownException = context.Exception as IKnownException;
             if (knownException == null)
             {
-                var logger = context.HttpContext.RequestServices.GetService<ILogger<MyExceptionFilter>>();
+                var logger = context.HttpContext.RequestServices.GetService<ILogger<MyExceptionFilterAttribute>>();
                 logger.LogError(context.Exception, context.Exception.Message);
                 knownException = KnownException.Unknown;
                 context.HttpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
